@@ -1,0 +1,40 @@
+<br>
+<header class="masthead bg-primary text-white text-center">
+    <div class="container"><br>
+      <h2 class="text-uppercase mb-0"> BETTINGs COMPETITIONS OPTIONS </h2>
+      <button class="btn btn-primary" (click)="selectAll2()">Polling-Start</button>
+      <button class="btn btn-primary" (click)="selectAll3()">Polling-Stop</button>
+      <button class="btn btn-primary" (click)="selectAll1()">Generate a Bet</button>
+      <hr class="star-light">
+    </div>
+</header>
+<div class="container">
+    <table class="table table-striped">
+        <thead>
+            <th>No.</th>
+            <th>Draw number</th>
+            <th>Team-A</th>
+            <th>Win A </th>
+            <th>Team B</th>
+            <th>Win-B</th>
+            <th>Actions </th>
+            </thead>
+        <tbody>
+            <tr *ngFor="let actor of actors">
+                <td> {{actor.id+1}}</td>
+                <td> {{actor.draw}}</td>
+                <td> {{actor.teams[0].name}}</td>
+                <td> {{actor.teams[0].win}}</td>
+                <td> {{actor.teams[1].name}}</td>
+                <td> {{actor.teams[1].win}}</td>
+                <td>
+                <button class="btn btn-primary" (click)="selectedGame(actor)">Ticket</button>
+                </td>     
+            </tr>
+        </tbody>
+    </table>
+    <button class="btn btn-primary" (click)="selectAll2()">Polling-Start</button>
+    <button class="btn btn-primary" (click)="selectAll3()">Polling-Stop</button>
+    <button class="btn btn-primary" (click)="selectAll1()">Generate a Bet</button>
+</div>
+<hr>

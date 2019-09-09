@@ -1,0 +1,40 @@
+<br>
+<header class="masthead bg-primary text-white text-center">
+  <div class="container"><br>
+    <h3 class="text-uppercase mb-0"> YOUR TICKET DETAILS! </h3>
+    <hr class="star-light">
+  </div>
+</header>
+<div class="container">
+    <form (ngSubmit) = "processForm()">
+        <div class="form group">
+          <label for="id"> Final draw choices</label> 
+          <br><br>
+       </div> 
+        <div class="form group" text-align="center">
+            <label for="draw">Draw Number </label>
+            <input name="draw" id="draw" maxlength="100"
+            type="text" [(ngModel)]="actor.draw"/> 
+            <label for="drawid">ID Number </label>
+            <input name="drawid" id="drawid" maxlength="100" 
+            type="text" [(ngModel)]="actor.id"/> 
+          </div>
+          <div class="form group">
+              <label for="teamaname"> Team A-name </label>
+              <input name="teamaname" id="teamaname" maxlength="10"
+              type="text" [(ngModel)]="actor.teams[0].name"/> 
+              <label for="teamawin">   Team A-Win </label>
+              <input name="teamawin" id="teamawin" maxlength="10"
+              type="text" [(ngModel)]="actor.teams[0].win"/> 
+            </div>
+            <div class="form group">
+                <label for="teambname"> Team B-name </label>
+                <input name="teambname" id="teambname" maxlength="10"
+                type="text" [(ngModel)]="actor.teams[1].name"/> 
+                <label for="teambwin"> Team B-Win </label>
+                <input name="teambwin" id="teambwin" maxlength="10"
+                type="text" [(ngModel)]="actor.teams[1].win"/> 
+              </div>
+          <input type="submit" value="Repeat the draw" class="btn btn-success">
+    </form>
+  </div>
