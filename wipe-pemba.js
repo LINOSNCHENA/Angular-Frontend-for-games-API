@@ -1,7 +1,8 @@
 var fs = require('fs'),
-  wipeDependencies = function() {
-    var file  = fs.readFileSync('package.json'),
-      content = JSON.parse(file);
+
+  wipepembas = function() {
+    var file  = fs.readFileSync('package.json');
+    var content = JSON.parse(file);
     for (var devDep in content.devDependencies) {
       content.devDependencies[devDep] = '*';
     }
@@ -10,8 +11,10 @@ var fs = require('fs'),
     }
     fs.writeFileSync('package.json', JSON.stringify(content,null,2));
   };
+
+
 if (require.main === module) {
-  wipeDependencies();
+  wipepembas();
 } else {
-  module.exports = wipeDependencies;
+  module.exports = wipepembas;
 }

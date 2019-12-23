@@ -8,7 +8,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "update:packages": "node wipe-dependencies.js && rm -rf node_modules && npm update --save-dev && npm update --save"
+    "update:packages": "node wipe-pemba.js && rm -rf node_modules && npm update --save-dev && npm update --save"
   },
   "private": true,
   "dependencies": {
@@ -47,6 +47,6 @@
     "protractor": "*",
     "ts-node": "*",
     "tslint": "*",
-    "typescript": "*"
+    "typescript": "3.6.0"
   }
 }
