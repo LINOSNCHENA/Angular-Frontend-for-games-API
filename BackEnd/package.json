@@ -1,0 +1,21 @@
+{
+  "name": "backend",
+  "version": "3.10.21",
+  "description": "Backend, Lusaka, Praha",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js"
+  },
+  "keywords": [
+    "Lusaka",
+    "Kazan"
+  ],
+  "author": "Marvin",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "rapper-name-generator": "^1.0.2",
+    "socket.io": "^3.1.2"
+  }
+}

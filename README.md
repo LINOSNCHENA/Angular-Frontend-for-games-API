@@ -1,27 +1,25 @@
-# GAMING AND SPORTS
+# GAME
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.2.
+## Development tools(2 specific)
 
-## Development server
+```
+npm i
+npm i express
+npm i -g nodemon
+npm i socket.io
+npm i rapper-name-generator
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+```
 
-## Code scaffolding
+## Automatic update: Pending
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Use python script to automated updating
 
-## Build
+## User Interface
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-## Running unit tests
+## Lecturer : 23
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+10/03/2021
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md)
+# END
