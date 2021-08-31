@@ -17,7 +17,8 @@ npm start
 FrontEnd
 ==========================
 npm i
-npm install  @angular/cli@9.0.0 npm install  @angular/compiler-cli@9.0.0 npm install  @angular/compiler@9.0.0
+npm install  @angular/cli@9.0.0 npm install  @angular/compiler-cli@9.0.0 
+npm install  @angular/compiler@9.0.0
 npm install @angular/cli@~9.1.0 -g
 ng build -c=release -c=production --aot
 npm i -D typescript@4.3.5
