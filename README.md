@@ -9,11 +9,27 @@ npm i -g nodemon
 npm i socket.io
 npm i rapper-name-generator
 
+
+Backend
+==========================
+npm i
+npm start
+FrontEnd
+==========================
+npm i
+npm install  @angular/cli@9.0.0 npm install  @angular/compiler-cli@9.0.0 npm install  @angular/compiler@9.0.0
+npm install @angular/cli@~9.1.0 -g
+ng build -c=release -c=production --aot
+npm i -D typescript@4.3.5
+
 ```
 
 ## Automatic update: Pending
 
-Use python script to automated updating
+Use python script to automated updating(bash)
+```
+npm run update:packages
+```
 
 ## User Interface
 
