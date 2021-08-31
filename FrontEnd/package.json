@@ -14,7 +14,6 @@
   "dependencies": {
     "@angular/animations": "^8.2.14",
     "@angular/common": "^8.2.14",
-    "@angular/compiler": "^8.2.14",
     "@angular/core": "^8.2.14",
     "@angular/forms": "^8.2.14",
     "@angular/http": "*",
@@ -23,6 +22,8 @@
     "@angular/router": "^8.2.14",
     "bootstrap": "^4.4.1",
     "font-awesome": "*",
+    "install": "^0.13.0",
+    "npm": "^7.21.1",
     "rxjs": "^6.5.3",
     "rxjs-compat": "*",
     "tslib": "*",
@@ -30,8 +31,9 @@
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "*",
-    "@angular/cli": "*",
-    "@angular/compiler-cli": "*",
+    "@angular/cli": "^9.0.0",
+    "@angular/compiler": "^9.0.0",
+    "@angular/compiler-cli": "^9.0.0",
     "@angular/language-service": "*",
     "@types/jasmine": "*",
     "@types/jasminewd2": "*",
